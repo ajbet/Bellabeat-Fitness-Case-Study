@@ -1,20 +1,17 @@
 ---
-title: "Bellabeat Case Study"
-knit: (function(input_file, encoding) {
-    out_dir <- 'docs';
-    rmarkdown::render(input_file,
-      encoding=encoding,
-      output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-author: "Anthony Betancourt"
-date: "2022-08-28"
+title: 'Bellabeat Case Study'
+author: 'Anthony Betancourt'
+date: '`r Sys.Date()`'
 bibliography: references.bib
-output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+
+```{undefined warning=TRUE}
 ## Executive Summary
 
 - [Bellabeat](https://bellabeat.com/) is a health-focused tech company focused on improving the well-being of women through use of their smart devices. By collecting activity data, Bellabeat is able to provide health and habits data to their customers. <br>

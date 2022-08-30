@@ -1,0 +1,12 @@
+  name: "reports"
+  output_dir: "docs"
+  navbar:
+    title: "Reports"
+    left:
+    - text: "Home"
+        href: index.html
+    - text: "Bellabeat Case Study"
+        href: bellabeat_case_study.html
+  output:
+    html_document:
+      theme: cosmo 
